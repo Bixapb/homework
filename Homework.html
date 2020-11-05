@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse justify-content-start mx-5" id="navbarNav">
+                <ul class="navbar-nav justify-content-start">
+                    <li class="nav-item">
+                        <i class="fas fa-user-graduate student"></i>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Attendance.html">Attendance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedule </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Homework.html">Homework<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end mx-5" id="navbarNav">
+                <ul class="navbar-nav ml-5 pl-5 justify-content-end">
+                    <li class="nav-item active">
+                        <a class="nav-link mx-1" href="#"><i class="fas fa-bell icon"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-1" href="#"><i class="fas fa-user-circle icon"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-1" href="#"><i class="fas fa-door-open icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center my-5">
+                <input type="date" id="data" name="data" value="2020-11-04">
+            </div>
+        </div>
+    </header>
+    <section id="homework_main">
+        <div class="container">
+            <h1 class="text-center">Homework</h1>
+            <div class="text-center">
+                <label class="m-3" for="Group">Group
+                <select name="Group" id="Group" >
+            <option value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+            <option value="">B</option>
+            </select>
+        </label>
+                <label class="m-3" for="Subject">Subject
+            <select name="Subject" id="Subject" >
+        <option value="">HTML&CSS</option>
+        <option value="">Java</option>
+        <option value="">JAvaScript</option>
+        <option value="">swift</option>
+        </select> 
+    </div>
+</section>
+    <section id="list_homework">
+    <div class="container">
+        <div class="row row-cols-5 bg-dark d-flex justify-content-between text-center text-white text_size">
+          <div class="col my-2">student</div>
+          <div class="col my-2">4.11</div>
+          <div class="col my-2">6.11</div>
+          <div class="col my-2">8.11</div>
+          <div class="col my-2">10.11</div>
+        </div>
+        <div class="row row-cols-5 d-flex justify-content-between text-center text_size mt-3">
+            <div class="col d-flex justify-content-center align-items-center ">NAME</div>
+            <div class="col"><i class="fas fa-file-code minus"></i><label class="m-3" for="homework">
+                <select name="homework" id="homework" >
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            </select>
+        </label></div>
+            <div class="col"><i class="fas fa-minus minus pt-4"></i></div>
+            <div class="col"><i class="fas fa-file-code minus"></i><label class="m-3" for="homework">
+                <select name="homework" id="homework" >
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+            </select>
+        </label></div>
+            <div class="col"><i class="fas fa-minus minus pt-4"></i></div>
+        </div>
+        <div class="row row-cols-5 d-flex justify-content-between text-center text_size mt-3">
+            <div class="col d-flex justify-content-center align-items-center ">NAME</div>
+            <div class="col"><i class="fas fa-file-code minus"></i><label class="m-3" for="homework">
+                <select name="homework" id="homework" >
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            </select>
+        </label></div>
+            <div class="col"><i class="fas fa-minus minus pt-4"></i></div>
+            <div class="col"><i class="fas fa-minus minus pt-4"></i></div>
+            <div class="col"><i class="fas fa-link minus pt-4"></i><label class="m-3" for="homework">
+                <select name="homework" id="homework" >
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            </select>
+        </label></div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
